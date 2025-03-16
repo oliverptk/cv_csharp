@@ -1,0 +1,265 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "raylib/5.5.0": {
+        "type": "package"
+      },
+      "Raylib-cs/7.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Raylib-cs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Raylib-cs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libraylib.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libraylib.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libraylib.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/raylib.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/raylib.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "System.IO.Hashing/10.0.0-preview.1.25080.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.IO.Hashing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.IO.Hashing.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "raylib/5.5.0": {
+      "sha512": "aDqYru6tAk5urYelCfA3Zx16YTh5pOsxyiPJ45cQEb/5PD2Azwc0ssComdpcdbjdTUuVwQsAr7/HQz/GFL4Alw==",
+      "type": "package",
+      "path": "raylib/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/native/LICENSE",
+        "build/native/README.md",
+        "build/native/include/AudioDevice.hpp",
+        "build/native/include/AudioStream.hpp",
+        "build/native/include/AutomationEventList.hpp",
+        "build/native/include/BoundingBox.hpp",
+        "build/native/include/Camera2D.hpp",
+        "build/native/include/Camera3D.hpp",
+        "build/native/include/Color.hpp",
+        "build/native/include/FileData.hpp",
+        "build/native/include/FileText.hpp",
+        "build/native/include/Font.hpp",
+        "build/native/include/Functions.hpp",
+        "build/native/include/Gamepad.hpp",
+        "build/native/include/Image.hpp",
+        "build/native/include/Keyboard.hpp",
+        "build/native/include/Material.hpp",
+        "build/native/include/Matrix.hpp",
+        "build/native/include/Mesh.hpp",
+        "build/native/include/MeshUnmanaged.hpp",
+        "build/native/include/Model.hpp",
+        "build/native/include/ModelAnimation.hpp",
+        "build/native/include/Mouse.hpp",
+        "build/native/include/Music.hpp",
+        "build/native/include/Ray.hpp",
+        "build/native/include/RayCollision.hpp",
+        "build/native/include/RaylibException.hpp",
+        "build/native/include/Rectangle.hpp",
+        "build/native/include/RenderTexture.hpp",
+        "build/native/include/Shader.hpp",
+        "build/native/include/ShaderUnmanaged.hpp",
+        "build/native/include/Sound.hpp",
+        "build/native/include/Text.hpp",
+        "build/native/include/Texture.hpp",
+        "build/native/include/TextureUnmanaged.hpp",
+        "build/native/include/Touch.hpp",
+        "build/native/include/Vector2.hpp",
+        "build/native/include/Vector3.hpp",
+        "build/native/include/Vector4.hpp",
+        "build/native/include/VrStereoConfig.hpp",
+        "build/native/include/Wave.hpp",
+        "build/native/include/Window.hpp",
+        "build/native/include/raylib-cpp-utils.hpp",
+        "build/native/include/raylib-cpp.hpp",
+        "build/native/include/raylib.h",
+        "build/native/include/raylib.hpp",
+        "build/native/include/raymath.h",
+        "build/native/include/raymath.hpp",
+        "build/native/include/rlgl.h",
+        "build/native/lib/win32/raylib.dll",
+        "build/native/lib/win32/raylib.lib",
+        "build/native/lib/win32/raylibdll.lib",
+        "build/native/lib/x64/raylib.dll",
+        "build/native/lib/x64/raylib.lib",
+        "build/native/lib/x64/raylibdll.lib",
+        "build/native/raylib.targets",
+        "build/native/raylibUI.xml",
+        "build/native/raylib_128x128.png",
+        "raylib.5.5.0.nupkg.sha512",
+        "raylib.nuspec"
+      ]
+    },
+    "Raylib-cs/7.0.1": {
+      "sha512": "Ub764yPExCago40qjPpTQqtYhhA0/aIEderv5XjB5peOXFs7A4YLyyARsfBv0JzCt4C+QvuqH0CrjAJIzgzjKA==",
+      "type": "package",
+      "path": "raylib-cs/7.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Raylib-cs.dll",
+        "lib/net6.0/Raylib-cs.xml",
+        "raylib-cs.7.0.1.nupkg.sha512",
+        "raylib-cs.nuspec",
+        "raylib-cs_64x64.png",
+        "runtimes/linux-x64/native/libraylib.so",
+        "runtimes/osx-arm64/native/libraylib.dylib",
+        "runtimes/osx-x64/native/libraylib.dylib",
+        "runtimes/win-x64/native/raylib.dll",
+        "runtimes/win-x86/native/raylib.dll"
+      ]
+    },
+    "System.IO.Hashing/10.0.0-preview.1.25080.5": {
+      "sha512": "4PspU8ngthAyEvAGChQynQKd6wm0JoDnpyRHXCO6PY4H2N3qeZnpo/0R4Imr22Kyq0CizsPkpT/uRVwFET9How==",
+      "type": "package",
+      "path": "system.io.hashing/10.0.0-preview.1.25080.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Hashing.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Hashing.targets",
+        "lib/net10.0/System.IO.Hashing.dll",
+        "lib/net10.0/System.IO.Hashing.xml",
+        "lib/net462/System.IO.Hashing.dll",
+        "lib/net462/System.IO.Hashing.xml",
+        "lib/net8.0/System.IO.Hashing.dll",
+        "lib/net8.0/System.IO.Hashing.xml",
+        "lib/net9.0/System.IO.Hashing.dll",
+        "lib/net9.0/System.IO.Hashing.xml",
+        "lib/netstandard2.0/System.IO.Hashing.dll",
+        "lib/netstandard2.0/System.IO.Hashing.xml",
+        "system.io.hashing.10.0.0-preview.1.25080.5.nupkg.sha512",
+        "system.io.hashing.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Raylib-cs >= 7.0.1",
+      "System.IO.Hashing >= 10.0.0-preview.1.25080.5",
+      "raylib >= 5.5.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Hideri\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Hideri\\Documents\\chartview_csharp\\chartview_csharp\\chartview_csharp.csproj",
+      "projectName": "chartview_csharp",
+      "projectPath": "C:\\Users\\Hideri\\Documents\\chartview_csharp\\chartview_csharp\\chartview_csharp.csproj",
+      "packagesPath": "C:\\Users\\Hideri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hideri\\Documents\\chartview_csharp\\chartview_csharp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Hideri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Raylib-cs": {
+            "target": "Package",
+            "version": "[7.0.1, )"
+          },
+          "System.IO.Hashing": {
+            "target": "Package",
+            "version": "[10.0.0-preview.1.25080.5, )"
+          },
+          "raylib": {
+            "target": "Package",
+            "version": "[5.5.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Users\\Hideri\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

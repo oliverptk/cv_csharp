@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "A8G7TIWBtxg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hideri\\Documents\\chartview_csharp\\chartview_csharp\\chartview_csharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hideri\\.nuget\\packages\\raylib\\5.5.0\\raylib.5.5.0.nupkg.sha512",
+    "C:\\Users\\Hideri\\.nuget\\packages\\raylib-cs\\7.0.1\\raylib-cs.7.0.1.nupkg.sha512",
+    "C:\\Users\\Hideri\\.nuget\\packages\\system.io.hashing\\10.0.0-preview.1.25080.5\\system.io.hashing.10.0.0-preview.1.25080.5.nupkg.sha512"
+  ],
+  "logs": []
+}
