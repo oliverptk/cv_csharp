@@ -1,0 +1,80 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Page-1" id="N4FnuZEI_jEjjYSW50TM">
+    <mxGraphModel dx="1195" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H2L6Pzl2JZzmpqhPt823-1" target="H2L6Pzl2JZzmpqhPt823-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-1" value="User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H2L6Pzl2JZzmpqhPt823-2" target="H2L6Pzl2JZzmpqhPt823-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-2" value="Main screen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H2L6Pzl2JZzmpqhPt823-3" target="H2L6Pzl2JZzmpqhPt823-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-3" value="Drop chart file into window" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H2L6Pzl2JZzmpqhPt823-4" target="H2L6Pzl2JZzmpqhPt823-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-4" value="Load chart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="H2L6Pzl2JZzmpqhPt823-5" target="H2L6Pzl2JZzmpqhPt823-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1480" y="500" />
+              <mxPoint x="1100" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-12" value="Import another chart" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H2L6Pzl2JZzmpqhPt823-10">
+          <mxGeometry x="-0.0072" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H2L6Pzl2JZzmpqhPt823-5" target="H2L6Pzl2JZzmpqhPt823-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H2L6Pzl2JZzmpqhPt823-5" target="H2L6Pzl2JZzmpqhPt823-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H2L6Pzl2JZzmpqhPt823-5" target="H2L6Pzl2JZzmpqhPt823-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-5" value="Chart view" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-13" value="Render Chart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-15" value="Play chart audio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H2L6Pzl2JZzmpqhPt823-17" target="H2L6Pzl2JZzmpqhPt823-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-17" value="Export chart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H2L6Pzl2JZzmpqhPt823-19" target="H2L6Pzl2JZzmpqhPt823-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-19" value="Get exported files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H2L6Pzl2JZzmpqhPt823-21" value="Import them to game, chartview, share them, whatever" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
